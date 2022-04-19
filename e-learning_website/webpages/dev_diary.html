@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>e-learning website</title>
+    <link href="C:\Users\James\Documents\e-learning_website\stylesheets\style.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <div class="topbox">
+      <img src="C:\Users\James\Documents\e-learning_website\images\e-learning.jpg" alt="e_logo" id="logo">
+      <ul class="navbar">
+        <li id="li1"><a href="C:\Users\James\Documents\e-learning_website\index.html">Home</a></li>
+        <li id="li2"><a href="C:\Users\James\Documents\e-learning_website\webpages\learning_overview.html">learning overview</a></li>
+        <li id="li3"><a href="C:\Users\James\Documents\e-learning_website\webpages\test1.html">test1</a></li>
+        <li id="li4"><a href="C:\Users\James\Documents\e-learning_website\webpages\test2.html">test2</a></li>
+        <li id="li5"><a href="C:\Users\James\Documents\e-learning_website\webpages\test3.html">test3</a></li>
+        <li id="li6"><a href="C:\Users\James\Documents\e-learning_website\webpages\dev_diary.html">dev diary</a></li>
+      </ul>
+    </div>
+  </head>
+
+  <body background="C:\Users\James\Documents\e-learning_website\images\starry_sky.jpg">
+    <div id="box2">
+
+    <h2>Diary input</h2>
+    <p>There are three tests. The first test is spelling numbers as words, the second test is a true or false spelling test and the third is writing out the names of the images.</p>
+    
+
+    <h3><u>Test 1 summary</u></h3>
+    <p>Flow of the javascript:</p>
+    <p>Get element by ID ---> There is an addeventlistener command attached to the button ---> button clicked ---> runs function.</p>
+    <p>Inside of each function there are variable containers and an if statement. The first variable container stores what the user will input into the text box and then the second variable container stores the correct answer. </p>
+    <p>The if statement after this is checking if the value the user inputted is equal to the correct answer. If it is the same, then “GetElementByID” command is used to locate the related button element, and then “.innerHTML” is used to output a string “correct! you win”. </p>
+    <p>If the user enters a value that is not equal to the stored correct answer, then the “else if” part of the function runs, which outputs the string “Incorrect, try again”. </p>
+    <p>For both, there is a code command for changing the colour to red or green, depending on if it is right or wrong. Due to the button element being selected, this will change the colour of the button along with the text being changed. </p>
+
+
+    <h3><u>Test 2 summary</u></h3>
+    <p>Flow of the javascript:</p>
+    <p>Get element by ID ---> There is an addeventlistener command attached to the button ---> button clicked ---> runs function.</p>
+    <p>This is similar to test 1 except with a "p" html tag being selected as the element where the string from “GetElementByID().innerHTML” is outputted. This means that when the user enters their answer and then clicks the button, text will appear showing if the answer is correct or incorrect.</p>
+    <p>The HTML on this test is again similar to test 1, with an "h2" heading tag for the title and a "p" tag where I wrote a short description of the test for the user.</p>
+
+    <h3><u>Test 3 summary</u></h3>
+    <p>Flow of the javascript:</p>
+    <p>Get element by ID ---> There is an addeventlistener command attached to the button ---> button clicked ---> runs function.</p>
+    <p>This test is also similar to test 1 and test 2 except with images which are added in through HTML and adjusted in CSS. I centered the images and changed their sizes to make them all the same size. </p>
+    <p>Another difference is when the outputted string is displayed to the user it is inside a "h4" tag. I think this makes it stand out more and looks good.</p>
+
+    <h3><u>HTML & CSS</u></h3>
+    <p>Width is set to 100% for mobile devices, the logo and images are centered, there is a navbar with list items which link to different pages, and there are five main boxes wherein the website content is displayed.</p>
+    <p>I added a stylesheet link from W3schools to html for the social media icons in the footer. Font is times new roman.</p>
+
+  </div>
+
+    
+  </body>
+
+  <footer>
+    <div class="footer">
+            &copy; e-learning 2021 | contact us at e-learning@email.com.
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-youtube"></a>
+      <a href="#" class="fa fa-linkedin"></a>
+        </div>
+  </footer>
+</html>
